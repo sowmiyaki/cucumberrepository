@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T07:21:26.081Z",
+        "line": 5,
+        "name": "success",
+        "description": "",
+        "id": "newlogin;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1298600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter\"sowmiya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sowmiya\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Newloginstep.user_enter(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User give \"123@456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123@456\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Newloginstep.user_give(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login",
+            "match": {
+              "location": "Newloginstep.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "Newloginstep.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Newlogin",
+    "description": "",
+    "id": "newlogin",
+    "keyword": "Feature",
+    "uri": "classpath:package2/new.feature",
+    "tags": []
+  }
+]
